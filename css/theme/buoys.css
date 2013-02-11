@@ -1,8 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 /**
  * A simple theme for reveal.js presentations, similar 
- * to the default theme. The accent color is darkblue.
+ * to the default theme. The accent color is #009ea2.
  * 
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
@@ -15,7 +13,7 @@ body {
 }
 
 .reveal {
-  font-family: "Lato", Times, "Times New Roman", serif;
+  font-family: "proxima-nova-soft", sans-serif;
   font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
@@ -51,7 +49,6 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #009ea2;
-  font-family: "News Cycle", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: none;
@@ -59,14 +56,19 @@ body {
 }
 
 .reveal h1 {
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+
+.reveal h2,
+.reveal h3 {
+  font-weight: 600;
 }
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: darkblue;
+  color: #009ea2;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -106,22 +108,22 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: darkblue;
+  border-right-color: #009ea2;
 }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: darkblue;
+  border-left-color: #009ea2;
 }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: darkblue;
+  border-bottom-color: #009ea2;
 }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: darkblue;
+  border-top-color: #009ea2;
 }
 
 .reveal .controls div.navigate-left.enabled:hover {
@@ -148,7 +150,7 @@ body {
 }
 
 .reveal .progress span {
-  background: darkblue;
+  background: #009ea2;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);

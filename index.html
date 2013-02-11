@@ -46,7 +46,8 @@
 				</section>
 				<section>
           <h2>Forecasts <em>vs</em> live data</h2>
-          <p>Swell forecasts are good, but what really gives you an avantage is knowing exactly what's going on out there.</p> </section>
+          <p>Swell forecasts are good for planning, but what really helps is knowing exactly what's going on out there.</p> 
+        </section>
 				<section>
           <h2>NSW surfers are lucky</h2>
           <p>The Manly Hydraulics Labratory has 7 buoys offshore along the coast, from Eden up to Byron Bay.</p>
@@ -81,7 +82,7 @@
   var assert        = require('assert')
 
   parseMHLGraph('http://.../syddir.gif', function(err, conditions) {
-    assert.equal(conditions.direction, 138.46) // Degrees true north
+    assert.equal(conditions.direction, 138.46) // Degrees TN
     assert.equal(conditions.hmax, 1.75)        // Metres
     assert.equal(conditions.hsig, 0.97)        // Metres
     assert.equal(conditions.tp1, 5.1)          // Seconds
@@ -150,7 +151,6 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
-
 		<script>
 
 			// Full list of configuration options available here:
@@ -177,6 +177,8 @@
 			});
 
 		</script>
+    <script src="//use.typekit.net/zid2ivn.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
 
 	</body>
 </html>
