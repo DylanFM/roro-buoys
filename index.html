@@ -55,11 +55,6 @@
         <section>
           <a href="http://mhl.nsw.gov.au/data/syddir.gif" title="Sydney's current conditions"><img src="images/syddir.gif" /></a>
         </section>
-        <section>
-          <h1>Buoys app</h1>
-          <a href="http://buoys.surftourist.com" title="Buoys"><img src="images/icon.png" /></a>
-          <p><a href="http://buoys.surftourist.com" title="Buoys">buoys.surftourist.com</a></p>
-        </section>
 				<!--<section>
           <a href="http://buoys.surftourist.com" title="Buoys listing"><img src="images/buoys.png" /></a>
           </section>-->
@@ -67,13 +62,18 @@
           <a href="http://buoys.surftourist.com/byron-bay" title="Byron Bay buoy"><img src="images/buoy.png" /></a>
 				</section>
         <section>
+          <h1>Buoys app</h1>
+          <a href="http://buoys.surftourist.com" title="Buoys"><img src="images/icon.png" /></a>
+          <p><a href="http://buoys.surftourist.com" title="Buoys">buoys.surftourist.com</a></p>
+        </section>
+        <section>
           <h1>What's inside&hellip;</h1>
         </section>
 				<section>
           <section>
             <h1>mhl-buoy-data</h1>
             <h3><code>npm install <a href="https://github.com/DylanFM/mhl-buoy-data" title="Github repository for mhl-buoy-data">mhl-buoy-data</a></code></h3>
-            <p>Extracts data from the MHL's API which <em>only responds to GIF format.</em></p>
+            <p>Extracts data from the MHL's API (GIFs).</em></p>
           </section>
           <section>
             <pre>
@@ -99,7 +99,7 @@
           <section>
             <h1>The process</h1>
             <h2>2. Read the graph</h2>
-            <p>Initially I was just scanning from a few hard&ndash;coded places, then I learned that the graph will sometimes change size. Yay :/</p>
+            <p>Initially I was using a lot of hard&ndash;coded values and assumptions to scan for data. Then, I learned that the GIFs change size. So, when something breaks I add the GIF to the test suite and try to fix it up.</p>
           </section>
           <section>
             <img src="images/tall.gif" />
